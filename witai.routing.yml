@@ -1,0 +1,13 @@
+witai.content:
+  path: '/wit'
+  defaults:
+    _controller: '\Drupal\witai\Controller\witaiController::content'
+  requirements:
+    _permission: 'access content'
+witai.keys:
+  path: '/keys'
+  defaults:
+    _controller: '\Drupal\witai\Controller\WitaiController::witai_get_apikey'
+    _title: 'API stuff'
+  requirements:
+    _permission: 'access content'

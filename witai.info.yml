@@ -1,0 +1,9 @@
+name: Wit.ai
+type: module
+description: 'Natural Language API AI integration for Wit.ai'
+package: Assistent
+core: 8.x
+configure: witai.admin_settings
+libraries: witai/witai
+tags:
+ - ui

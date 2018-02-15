@@ -1,0 +1,24 @@
+witai:
+  js:
+    app/microphone/microphone.js: {}
+    app/app.js: {}
+    plugins/plugins.js: {}
+    app/speech.js: {}
+    plugins/google_customsearch.js: {}
+    plugins/google_cal.js: {}
+  css:
+    theme:
+      app/microphone/microphone.css: {}
+google_cal:
+  header: true
+  remote: https://apis.google.com/js/client.js
+  version: 3.0.0
+  license: Google
+  js:
+    https://apis.google.com/js/client.js: { type: external, minified: false }
+twig:
+  remote: https://cdnjs.cloudflare.com/ajax/libs/twig.js/0.8.7/twig.min.js
+  version: 0.8.4
+  license: BSD
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/twig.js/0.8.7/twig.min.js: { type: external, minified: true }
