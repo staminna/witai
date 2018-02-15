@@ -8,3 +8,8 @@ Demos in Vimeo: https://vimeo.com/255636865
 https://vimeo.com/255561919
 
 https://vimeo.com/255626694
+
+1. Create folder in modules/witai and copy files over
+2. Add SSL certificates
+3. Enable the module
+4. Speak !
