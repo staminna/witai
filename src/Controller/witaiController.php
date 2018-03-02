@@ -16,7 +16,7 @@ class witaiController extends ControllerBase {
 
     $obj = new \stdClass();
     $obj->label="API Keys for the assistent";
-    $obj->data = array ( 'wit' => '6FLJURAS46PSFLKCIANOXHRKFM4HFKRO', 'flickr'=>'709b2efe5983f428a9a6477cb253efba&',);
+    $obj->data = array ( 'wit' => 'Your API Key here', 'flickr'=>'Your flickr API Key here',);
 
     return new JsonResponse($obj);
   }
